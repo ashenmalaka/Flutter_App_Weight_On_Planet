@@ -74,7 +74,7 @@ class HomeState extends State<Home> {
                         new Text(
                           "Pluto",
                           style: new TextStyle(
-                            color: Colors.white60,
+                            color: Colors.white30,
                           ),
                         ),
 
@@ -84,11 +84,26 @@ class HomeState extends State<Home> {
                         onChanged: handleRadioValueChanged,
                         ),
 
+                        new Text(
+                          "Mars",
+                          style: new TextStyle(
+                            color: Colors.white30,
+                          ),
+                        ),
+
                       new Radio<int>(
                         value: 2,
                         groupValue: radioValue,
                         onChanged: handleRadioValueChanged,
                         ),
+
+                        new Text(
+                          "Venus",
+                          style: new TextStyle(
+                            color: Colors.white30,
+                          ),
+                        ),
+
                     ],
                   )
 
