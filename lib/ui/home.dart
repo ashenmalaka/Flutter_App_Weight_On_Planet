@@ -66,6 +66,7 @@ class HomeState extends State<Home> {
                     children: <Widget>[
 
                       new Radio<int>(
+                        activeColor: Colors.brown,
                         value: 0,
                         groupValue: radioValue,
                         onChanged: handleRadioValueChanged,
@@ -79,6 +80,7 @@ class HomeState extends State<Home> {
                         ),
 
                       new Radio<int>(
+                        activeColor: Colors.red,
                         value: 1,
                         groupValue: radioValue,
                         onChanged: handleRadioValueChanged,
@@ -92,6 +94,7 @@ class HomeState extends State<Home> {
                         ),
 
                       new Radio<int>(
+                        activeColor: Colors.orangeAccent,
                         value: 2,
                         groupValue: radioValue,
                         onChanged: handleRadioValueChanged,
