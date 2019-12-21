@@ -71,6 +71,13 @@ class HomeState extends State<Home> {
                         onChanged: handleRadioValueChanged,
                         ),
 
+                        new Text(
+                          "Pluto",
+                          style: new TextStyle(
+                            color: Colors.white60,
+                          ),
+                        ),
+
                       new Radio<int>(
                         value: 1,
                         groupValue: radioValue,
