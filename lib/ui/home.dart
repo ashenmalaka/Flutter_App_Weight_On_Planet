@@ -25,7 +25,7 @@ class HomeState extends State<Home> {
         child: new ListView(
           padding: const EdgeInsets.all(2.5),
           children: <Widget>[
-            new Image.asset("assets/planet.png",
+            new Image.asset("images/planet.png",
               height: 133.0,
               width: 200.0,
             ),
