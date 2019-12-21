@@ -44,7 +44,13 @@ class HomeState extends State<Home> {
                       hintText: 'In Pounds',
                       icon: new Icon(Icons.person_outline),
                     ),
-                  )
+                  ),
+
+                  new Padding(padding: EdgeInsets.all(5.0)),
+
+                  //Three Radio Buttons
+                  
+
                 ],
               ),
             )
