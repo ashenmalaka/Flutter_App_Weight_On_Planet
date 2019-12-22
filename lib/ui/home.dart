@@ -93,7 +93,7 @@ class HomeState extends State<Home> {
                         activeColor: Colors.brown,
                         value: 0,
                         groupValue: radioValue,
-                        onChanged: handleRadioValueChanged,
+                        onChanged: handleRadioValueChanged
                         ),
 
                         new Text(
@@ -107,7 +107,7 @@ class HomeState extends State<Home> {
                         activeColor: Colors.red,
                         value: 1,
                         groupValue: radioValue,
-                        onChanged: handleRadioValueChanged,
+                        onChanged: handleRadioValueChanged
                         ),
 
                         new Text(
@@ -121,7 +121,7 @@ class HomeState extends State<Home> {
                         activeColor: Colors.orangeAccent,
                         value: 2,
                         groupValue: radioValue,
-                        onChanged: handleRadioValueChanged,
+                        onChanged: handleRadioValueChanged
                         ),
 
                         new Text(
@@ -135,6 +135,7 @@ class HomeState extends State<Home> {
                   ),
                   
                   new Padding(padding: new EdgeInsets.all(15.5)),
+
                   //Result Text
                   new Text(
                     "$_finalResult",
