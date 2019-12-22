@@ -28,6 +28,7 @@ class HomeState extends State<Home> {
           break;
         case 2:
           _finalResult = calculateWeight(_weightController.text, 0.91);
+          break;
       }
     });
   }
