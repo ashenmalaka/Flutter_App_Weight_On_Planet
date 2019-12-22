@@ -131,7 +131,7 @@ class HomeState extends State<Home> {
 
                   //Result Text
                   new Text(
-                    "$_finalResult",
+                    "$_formattedText lbs",
                     style: new TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w500,
