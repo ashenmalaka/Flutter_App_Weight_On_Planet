@@ -136,7 +136,7 @@ class HomeState extends State<Home> {
                   new Padding(padding: new EdgeInsets.all(15.5)),
                   //Result Text
                   new Text(
-                    "Hello There",
+                    "$_finalResult",
                     style: new TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w500,
