@@ -108,6 +108,15 @@ class HomeState extends State<Home> {
                         ),
 
                     ],
+                  ),
+
+                  new Text(
+                    "Hello There",
+                    style: new TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500,
+                      fontSize: 19.5,
+                    ),
                   )
 
                 ],
