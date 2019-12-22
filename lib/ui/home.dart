@@ -32,6 +32,11 @@ class HomeState extends State<Home> {
         case 2:
           _finalResult = calculateWeight(_weightController.text, 0.91);
           _formattedText = "Your Weight on Venus is ${_finalResult.toStringAsFixed(1)}";
+          break;
+        default:
+          print("Nothing Selected");
+
+          _formattedText = "Nothing is Selected!";
           
       }
     });
