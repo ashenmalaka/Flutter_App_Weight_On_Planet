@@ -109,7 +109,9 @@ class HomeState extends State<Home> {
 
                     ],
                   ),
-
+                  
+                  new Padding(padding: new EdgeInsets.all(5.5)),
+                  //Result Text
                   new Text(
                     "Hello There",
                     style: new TextStyle(
