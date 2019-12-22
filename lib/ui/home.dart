@@ -28,20 +28,9 @@ class HomeState extends State<Home> {
           break;
         case 2:
           _finalResult = calculateWeight(_weightController.text, 0.91);
-          break;
+          
       }
     });
-  }
-
-  double calculateWeight(String weight, double multiplier){
-
-    if(int.parse(weight).toString().isNotEmpty && int.parse(weight) > 0){
-      return int.parse(weight) * multiplier;
-    }else{
-      print("Wrong!");
-
-      return int.parse("180.0") * 0.38;
-    }
   }
 
   @override
@@ -153,6 +142,17 @@ class HomeState extends State<Home> {
         ),
       ),
     );
+  }
+
+   double calculateWeight(String weight, double multiplier){
+
+    if(int.parse(weight).toString().isNotEmpty && int.parse(weight) > 0){
+      return int.parse(weight) * multiplier;
+    }else{
+      print("Wrong!");
+
+      return int.parse("180.0") * 0.38;
+    }
   }
 
 }
